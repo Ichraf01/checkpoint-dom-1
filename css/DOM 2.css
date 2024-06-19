@@ -1,0 +1,26 @@
+.contenu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+   
+ }
+ h1{background-image: linear-gradient(to left, violet, pink, purple, indigo, blue, green, yellow);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;}
+
+#color-box{
+    background-color: pink;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 45px;
+}
+
+ #change-color-btn{
+    width: 80px;
+    height: 50px;
+    background-color: rgb(207, 127, 155);
+ }
